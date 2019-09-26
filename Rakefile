@@ -20,7 +20,7 @@ namespace :db do
     Student.create_table
   end
   
-  desc ''
+  desc 'seed the database with some filler data'
   task :seed do 
     require_relative './db/seeds.rb'
   end 
